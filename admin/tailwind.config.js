@@ -18,6 +18,9 @@ module.exports = {
       "2xl": "1320px",
       "2xl-max": { max: "1320px" },
     },
+    backgroundImage: {
+      'logo-login': "url('/build/assets/img/mh/logo-login.png')",
+    },
     colors: ({ colors }) => ({
       inherit: colors.inherit,
       current: colors.current,
